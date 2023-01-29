@@ -1,0 +1,17 @@
+
+/*  #d96b9f e #e187b2 */
+
+section {
+    
+}
+ol {
+    columns: 2;
+}
+.areatexto {
+    width: 450px;
+    float: left;
+}
+.areaimagem {
+    float: right;
+    width: 100vh;
+}
