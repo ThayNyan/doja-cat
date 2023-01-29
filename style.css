@@ -1,17 +1,36 @@
 
-/*  #d96b9f e #e187b2 */
 
-section {
-    
+@charset "UTF-8";
+
+*{  margin: 0px;
+    padding: 0px;
 }
-ol {
+body {
+    background-color: #d96b9f;
+}
+h1 {
+    font-size: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+article {
+    background-color: #e187b2;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
     columns: 2;
+    list-style-position: inside;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
 }
 .areatexto {
-    width: 450px;
+    width: 650px;
     float: left;
 }
 .areaimagem {
-    float: right;
-    width: 100vh;
+    align: right center;
+    float: right; 
 }
