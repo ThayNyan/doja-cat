@@ -7,6 +7,7 @@
 }
 body {
     background-color: #d96b9f;
+    display: inline-block;
 }
 h1 {
     font-size: 6em;
@@ -26,11 +27,15 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
 }
+
+img {
+    width: 375px;
+}
 .areatexto {
     width: 650px;
     float: left;
 }
 .areaimagem {
-    align: right center;
-    float: right; 
+    position: fixed;
+    padding-left: 640px;
 }
